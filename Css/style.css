@@ -1,0 +1,152 @@
+body {
+    background: #FAFCFD;
+
+}
+
+.main-title {
+    background-image: url(../images/Group%209.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.main-section {
+    padding: 92px 0;
+    background: #FAFCFD;
+}
+
+.main-content {
+    background: #fff;
+    box-shadow: 0px 0px 9px #a7a7a78a;
+    border-radius: 7px;
+}
+
+
+.main-from {
+    padding: 15px 25px;
+    position: relative;
+    padding-top: 40px;
+}
+
+
+.text-main {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+.text-main p {
+    color: rgba(255, 255, 255, 60%);
+    font-size: 16px;
+}
+
+.text-main h1 {
+    color: rgba(255, 255, 255, 87%);
+    font-size: 30px;
+}
+
+.main-from img {
+    position: absolute;
+    top: -32px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: 15px;
+    margin: 0;
+    transition: all .2s linear;
+    background: #fff;
+    z-index: 1;
+    color: rgba(0, 0, 0, 60%);
+}
+
+.form-control {
+    height: calc(2em + 0.75rem + 2px);
+    z-index: 1000;
+    position: relative;
+    background: transparent !important;
+}
+
+span.form-check-label {
+    color: rgba(0, 0, 0, 60%);
+}
+
+span a {
+    color: #2500EE;
+    text-decoration: underline;
+}
+
+span.form-check-label {
+    color: rgba(0, 0, 0, 60%);
+}
+
+span a {
+    color: #2500EE;
+    text-decoration: underline;
+}
+
+button.btn {
+    background: #6200EE;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.focused label {
+    transition: all .2s linear;
+    top: 0;
+    z-index: 20000;
+    padding: 0 8px;
+    color: #6200EE;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #6200EE;
+    border: 2px solid #6200EE;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+}
+
+.btn:hover {
+    color: #6200EE;
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid;
+}
+
+span.show-hide {
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+    font-size: 20px;
+    color: #707070;
+}
+
+small#passHelp {
+    position: absolute;
+}
+
+@media (max-width: 763px) {
+
+    .hh {
+        display: none;
+    }
+}
